@@ -228,6 +228,10 @@ body {
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
 }
 
+.webIframe {
+  min-width: 300px;
+}
+
 legend {
   font-family: "Verdana";
   font-size: 1rem;
