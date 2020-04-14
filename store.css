@@ -265,7 +265,7 @@ a.blurb {
   border: 3px solid #64428c;
   border-radius: 0.5rem 2rem 2rem 2rem;
   padding: 1rem 2rem;
-  margin: 3% 32px 7% 32px;
+  margin: 3% 32px 0% 32px;
   background-image: linear-gradient(20deg, #aa8abd75 0%, #f5e7dc85 85%);
   font-family: "Verdana";
   font-weight: bold;
@@ -279,19 +279,19 @@ a.blurb {
 
 .portal {
   color: #3b0273;
-  border: 3px solid #64428c;
+  border: 3px solid #3b0273;
   border-radius: 0.5rem 2rem 2rem 2rem;
   padding: 1rem 2rem;
-  margin: 3% 32px 7% 32px;
+  margin: 3% 32px 0% 32px;
   background-color: white;
   font-family: "Verdana";
   font-weight: bold;
   filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   box-shadow: 
-  -8px -8px 10px #f5e7dc inset,
-  8px -8px 10px #f5e7dc inset,
-  -8px 8px 10px #f5e7dc inset,
-  8px 8px 10px #f5e7dc inset;
+  -8px -8px 10px #aa8abd inset,
+  8px -8px 10px #aa8abd inset,
+  -8px 8px 10px #aa8abd inset,
+  8px 8px 10px #aa8abd inset;
 }
 
 legend {
@@ -336,10 +336,18 @@ ul.wind li {
 
 .webIframe {
   width: 90%;
-  height: 10rem;
+  height: 15rem;
   margin-left: 5%;
   border: none;
 }
+
+.disclaimer {
+  padding: 0;
+  margin-bottom: 7%;
+  font-size: small;
+  text-align: center;
+}
+
 /* Footer Styling */
 
 #bedPic {
