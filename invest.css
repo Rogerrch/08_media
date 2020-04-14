@@ -258,6 +258,15 @@ table.sub tr:hover {
     text-align: center;
 }
 
+.pdf {
+    color: #faa16f;
+}
+
+.wText {
+    color: #f5e7dc;
+    margin-top: 0;
+}
+
   
   /* Footer Styling */
   
