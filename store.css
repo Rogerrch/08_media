@@ -334,6 +334,10 @@ ul.wind li {
   box-shadow: 2px 2px 3px #3b0273;
 }
 
+.invite {
+  font-size: 1.5rem;
+}
+
 .webIframe {
   width: 90%;
   height: 15rem;
