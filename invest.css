@@ -214,8 +214,6 @@ figure {
   }
 
 #nucleus {
-  display: flex;
-  justify-content: center;
     color: #3b0273;
     border: 2px solid #3b0273;
     border-radius: 0.5rem 2rem 2rem 2rem;
@@ -227,10 +225,7 @@ figure {
     font-size: clamp(5.2px, 1.5vw, 18px);
     filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   }
-  .balance {
-    display: flex;
-    w
-  }
+
   legend {
     font-family: "Verdana";
     font-size: 1rem;
