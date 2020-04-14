@@ -205,12 +205,26 @@ figure {
     color: #3b0273;
     border: 2px solid #3b0273;
     border-radius: 0.5rem 2rem 2rem 2rem;
+    padding: .5rem 2rem 1.5rem 2rem;
+    margin: 2%;
+    background-image: linear-gradient(20deg, #f5e7dc75 0%, #64428c85 85%);
+    font-family: "Verdana";
+    font-weight: 600;
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
+  }
+
+#nucleus {
+  display: flex;
+  justify-content: center;
+    color: #3b0273;
+    border: 2px solid #3b0273;
+    border-radius: 0.5rem 2rem 2rem 2rem;
     padding: 1rem 2rem;
     margin: 2%;
     background-image: linear-gradient(20deg, #f5e7dc75 0%, #64428c85 85%);
     font-family: "Verdana";
     font-weight: 600;
-    font-size: clamp(5.5px, 1.5vw, 18px);
+    font-size: clamp(5.2px, 1.5vw, 18px);
     filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   }
   .balance {
@@ -228,13 +242,14 @@ figure {
     border: solid 2px #ebae8b;
   }
 
-/* desktop table style*/
+/* desktop table style*/ 
 
 table.sub {
   border: 2px solid ;
   background-color: #f5e7dc;
   border-collapse: collapse;
     width: 80%;  
+    margin-left: 1vw;
 }
 
 table.sub th {
@@ -270,9 +285,6 @@ table.sub tr:hover {
   font-size: .5rem;
   text-align: center;
 }
-
-
-
 
   /* Footer Styling */
   
