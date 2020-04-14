@@ -186,13 +186,11 @@ body {
   
   /*feildset elements*/
 
-
-
   form.userInfo fieldset.lgPat {
     color: #3b0273;
     border: 2px solid #3b0273;
     border-radius: 0.5rem 2rem 2rem 2rem;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem 1.5rem 1.5rem;
     margin: 2%;
     background-color: #aa8abd;
     box-shadow: 
@@ -201,6 +199,7 @@ body {
     background-repeat: repeat;
     font-family: "Verdana";
     font-weight: bold;
+    font-size: clamp(16px, 1.5vw, 18px);
     filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   } 
 
@@ -208,7 +207,7 @@ body {
     color: #3b0273;
     border: 2px solid #3b0273;
     border-radius: 0.5rem 2rem 2rem 2rem;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem 1.5rem 1.5rem;
     margin: 2%;
     background-color: #aa8abd;
     box-shadow: 
@@ -217,6 +216,7 @@ body {
   background-repeat: repeat;
     font-family: "Verdana";
     font-weight: bold;
+    font-size: clamp(16px, 1.5vw, 18px);
     filter: drop-shadow(0.5mm 1mm 0.6mm #3b0273);
   } 
   main ul.gust li {
