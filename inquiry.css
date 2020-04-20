@@ -282,6 +282,12 @@ dd {
   border: none;
   
 }
+.disclaimer {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: .5rem;
+  text-align: center;
+}
 
 /* Footer Styling */
 
